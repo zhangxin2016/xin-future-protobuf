@@ -1,0 +1,19 @@
+syntax = "proto3";
+package com.ratpack.xin.pojo;
+
+//用户信息
+message UserInfo {
+    required string userid = 1;//用户ID
+    optional string username = 2;//用户名字
+    optional string userpassword = 3;//用户密码
+    optional string userphone = 4;//手机号码
+    optional string usersex = 5;//性别
+    optional string usercountry = 6;//国家
+    optional string userprovince = 7;//省
+    optional string usercity = 8;//市
+    optional string userarea = 9;//区
+    optional string usercreatetime = 10;//注册时间
+    optional string userhead = 11;//头像
+    optional string qqid = 12;//绑定qq登陆
+    optional string wxid = 13;//绑定微信
+}
